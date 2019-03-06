@@ -1,11 +1,21 @@
-import React from 'react';
+import React, { Component } from 'react';
+import ColorSelector from './ColorSelector';
 
-function App() {
-  return (
-    <>
-      <h1>Hello</h1>
-    </>
-  );
+export default class App extends Component {
+  state = {
+    text: '',
+    color: '',
+    background: ''
+  };
+
+  render() {
+    return (
+      <>
+        <h1>REACT!</h1>
+        <ColorSelector />
+      </>  
+    );
+  }
 }
 
-export default App;
+
