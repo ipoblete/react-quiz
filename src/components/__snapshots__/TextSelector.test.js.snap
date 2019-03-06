@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextSelector matches a snapshot 1`] = `
+Array [
+  <label>
+    Text:
+  </label>,
+  <input
+    name="text"
+    type="text"
+  />,
+]
+`;

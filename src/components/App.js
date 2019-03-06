@@ -7,7 +7,7 @@ export default class App extends Component {
   state = {
     text: '',
     fontColor: '',
-    backgroundColor: ''
+    backgroundColor: '#FF0000'
   };
 
   handleChange = ({ target }) => {
